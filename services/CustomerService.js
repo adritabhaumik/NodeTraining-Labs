@@ -4,9 +4,7 @@ class CustomerService {
         console.log('Customer service is called!!!')
     }
     findAllV1(handler){
-        for(let val of CUSTOMERS) {
-            console.log(val)
-        }
+       
         setTimeout(handler, 1000, CUSTOMERS);       
     }
 
